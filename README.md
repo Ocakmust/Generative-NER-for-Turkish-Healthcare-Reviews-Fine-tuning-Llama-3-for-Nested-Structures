@@ -1,5 +1,7 @@
 # Generative-NER-for-Turkish-Healthcare-Reviews-Fine-tuning-Llama-3-for-Nested-Structures
 
+Model linki: https://huggingface.co/mocak2/Turkish-Healthcare-Reviews-Fine-tuning-Llama-3#model-card-for-model-id
+
 Bu proje, Meta Llama-3.1-8B-Instruct modelini kullanarak Türkçe takviye edici gıda (vitamin & supplement) yorumlarından varlık ismi çıkarma (NER) işlemini gerçekleştirmektedir. Model, Unsloth kütüphanesi aracılığıyla QLoRA (Quantized Low-Rank Adaptation) tekniği kullanılarak eğitilmiştir.  Standart NER modellerinin aksine, bu proje Generative NER yaklaşımını benimser ve çıktıları yapılandırılmış XML formatında üretir. Bu sayede iç içe geçmiş (Nested) varlıkları (örneğin bir yan etkinin içinde geçen bir hastalık ismini) başarıyla tespit edebilir.  
 
  Özellikler 
